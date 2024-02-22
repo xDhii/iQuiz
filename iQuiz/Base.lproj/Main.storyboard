@@ -235,6 +235,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="glP-St-hTE"/>
         <segue reference="7Op-Zm-ogr"/>
     </inferredMetricsTieBreakers>
     <resources>

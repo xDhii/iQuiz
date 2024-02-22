@@ -11,7 +11,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var botaoIniciarQuiz: UIButton!
 
     @IBAction func botaoPressionado(_ sender: Any) {
-        print("Botão pressionado")
     }
 
     override func viewDidLoad() {
