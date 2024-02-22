@@ -13,6 +13,9 @@
 		BC54B0FE2B841FAB0034D902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC54B0FC2B841FAB0034D902 /* Main.storyboard */; };
 		BC54B1002B841FAD0034D902 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC54B0FF2B841FAD0034D902 /* Assets.xcassets */; };
 		BC54B1032B841FAD0034D902 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC54B1012B841FAD0034D902 /* LaunchScreen.storyboard */; };
+		BC9711B52B86A25D00DF6CE1 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9711B42B86A25D00DF6CE1 /* QuestaoViewController.swift */; };
+		BC9711B72B86AB0500DF6CE1 /* Questao.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9711B62B86AB0500DF6CE1 /* Questao.swift */; };
+		BC9711B92B87FA3D00DF6CE1 /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9711B82B87FA3D00DF6CE1 /* DesempenhoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BC54B0FF2B841FAD0034D902 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC54B1022B841FAD0034D902 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC54B1042B841FAD0034D902 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9711B42B86A25D00DF6CE1 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
+		BC9711B62B86AB0500DF6CE1 /* Questao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Questao.swift; sourceTree = "<group>"; };
+		BC9711B82B87FA3D00DF6CE1 /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,34 @@
 		BC54B0F52B841FAB0034D902 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				BC9711BB2B88043300DF6CE1 /* Model */,
+				BC9711BA2B88041400DF6CE1 /* ViewController */,
 				BC54B0F62B841FAB0034D902 /* AppDelegate.swift */,
 				BC54B0F82B841FAB0034D902 /* SceneDelegate.swift */,
-				BC54B0FA2B841FAB0034D902 /* ViewController.swift */,
 				BC54B0FC2B841FAB0034D902 /* Main.storyboard */,
 				BC54B0FF2B841FAD0034D902 /* Assets.xcassets */,
 				BC54B1012B841FAD0034D902 /* LaunchScreen.storyboard */,
 				BC54B1042B841FAD0034D902 /* Info.plist */,
 			);
 			path = iQuiz;
+			sourceTree = "<group>";
+		};
+		BC9711BA2B88041400DF6CE1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC9711B42B86A25D00DF6CE1 /* QuestaoViewController.swift */,
+				BC9711B82B87FA3D00DF6CE1 /* DesempenhoViewController.swift */,
+				BC54B0FA2B841FAB0034D902 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		BC9711BB2B88043300DF6CE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC9711B62B86AB0500DF6CE1 /* Questao.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +166,9 @@
 				BC54B0FB2B841FAB0034D902 /* ViewController.swift in Sources */,
 				BC54B0F72B841FAB0034D902 /* AppDelegate.swift in Sources */,
 				BC54B0F92B841FAB0034D902 /* SceneDelegate.swift in Sources */,
+				BC9711B72B86AB0500DF6CE1 /* Questao.swift in Sources */,
+				BC9711B92B87FA3D00DF6CE1 /* DesempenhoViewController.swift in Sources */,
+				BC9711B52B86A25D00DF6CE1 /* QuestaoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
