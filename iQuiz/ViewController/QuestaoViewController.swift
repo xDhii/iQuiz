@@ -11,7 +11,7 @@ class QuestaoViewController: UIViewController {
     var pontuacao = 0
     var numeroQuestao = 0
     var questoesRespondidas = 0
-    var totalDeQuestoes = 5
+    var totalDeQuestoes = 7
     var numerosDasQuestoesRespondidas = [Int()]
 
     @IBOutlet var tituloQuestaoLabel: UILabel!
